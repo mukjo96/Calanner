@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/list_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:paddingLeft="16dp"
+            android:text="Title"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right">
+
+            <TextView
+                android:id="@+id/list_year"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0000년" />
+
+            <TextView
+                android:id="@+id/list_month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00월" />
+
+            <TextView
+                android:id="@+id/list_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00일" />
+
+            <TextView
+                android:id="@+id/list_hour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00시" />
+
+            <TextView
+                android:id="@+id/list_minute"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00분" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/list_contents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:paddingLeft="16dp"
+        android:text="Description" />
+
+</LinearLayout>
