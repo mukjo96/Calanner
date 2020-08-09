@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_daily"
+        android:icon="@drawable/ic_daily"
+        android:enabled="true"
+        android:title="일간" />
+    <item
+        android:id="@+id/action_weekly"
+        android:icon="@drawable/ic_weekly"
+        android:enabled="true"
+        android:title="주간" />
+    <item
+        android:id="@+id/action_monthly"
+        android:icon="@drawable/ic_monthly"
+        android:enabled="true"
+        android:title="월간" />
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_settings"
+        android:enabled="true"
+        android:title="설정" />
+
+</menu>

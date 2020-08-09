@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "989594817936",
+    "firebase_url": "https://calanner-85787.firebaseio.com",
+    "project_id": "calanner-85787",
+    "storage_bucket": "calanner-85787.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989594817936:android:1b07d61e0450cb010a0f15",
+        "android_client_info": {
+          "package_name": "com.example.calanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "989594817936-4juo7ap04khhan952995kq1tnc6fghin.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.calanner",
+            "certificate_hash": "6e06b804744a79b08788cb128e1be1c33d21ab78"
+          }
+        },
+        {
+          "client_id": "989594817936-s8kdo187lnik0q1b99eaj352oj5hodc7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtd2xEfI5UAW_iymOuREdmNUdZIIGLJvM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "989594817936-s8kdo187lnik0q1b99eaj352oj5hodc7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

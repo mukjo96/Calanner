@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite">
+
+    <Button
+        android:id="@+id/signout_btn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#0C4056"
+        android:text="로그아웃"
+        android:textColor="#EFD477"
+        android:textSize="18dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+
+</LinearLayout>
