@@ -12,6 +12,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.calanner.AddplanActivity
 import com.example.calanner.Auth.Companion.getUid
 import com.example.calanner.ListAdapter
+import com.example.calanner.MainActivity
 import io.realm.Realm;
 import model.Plan
 import com.example.calanner.R
@@ -60,7 +61,7 @@ class DailyFragment : Fragment(){
             .sort("date", Sort.ASCENDING)
 
         val adapters = ListAdapter(realmResult) { id ->
-            startActivity(Intent(activity, AddplanActivity::class.java).putExtra("id", id))
+            startActivity(Intent(activity, MainActivity::class.java).putExtra("id", id))
         }
 
         realmResult.addChangeListener { _ ->
@@ -114,7 +115,7 @@ class DailyFragment : Fragment(){
     }
 
 
-    }
+}
 
 
 

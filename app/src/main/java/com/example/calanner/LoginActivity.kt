@@ -150,7 +150,8 @@ class LoginActivity : AppCompatActivity() {
             }
     }
     fun signinAndSignup(){
-        if(email_edittext.text != null && password_edittext.text != null) {
+        if(email_edittext.text.toString() == "" && password_edittext.text.toString() == ""){}
+        else if(email_edittext.text != null && password_edittext.text != null) {
             auth?.createUserWithEmailAndPassword(
                 email_edittext.text.toString(),
                 password_edittext.text.toString()

@@ -110,6 +110,8 @@ class WeeklyFragment : Fragment(){
         deleteItem.deleteFromRealm()
 
     }
+
 }
+
 
 

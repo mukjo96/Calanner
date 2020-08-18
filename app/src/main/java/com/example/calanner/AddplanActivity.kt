@@ -165,4 +165,11 @@ class AddplanActivity : AppCompatActivity() {
             Toast.LENGTH_SHORT
         ).show()
     }
+
+    override fun onBackPressed() {
+        // 뒤로가기 버튼 클릭
+        realm.commitTransaction()
+        finish() //액티비티 종료
+    }
 }
+
